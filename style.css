@@ -93,6 +93,9 @@ svg {
     transform: scaleY(2);
     transform-origin: bottom;
 }
+.plot:hover{
+    cursor: pointer;
+}
 .graph span{
     position: absolute;
     bottom: -2rem;
