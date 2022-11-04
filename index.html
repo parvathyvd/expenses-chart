@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+
+  </head>
+  <body>
+    <main class="container">
+      <section class="balance">
+        <div class="balance__text">
+  <small>My balance</small>
+  <h3>$921.48</h3>
+        </div>
+        <figure>
+          <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#382314" cx="48" cy="24" r="24" />
+              <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+            </g>
+          </svg>
+        </figure>
+      </section>
+      <section class="spending">
+        <h3 class="spending__heading">Spending - Last 7 days</h3>
+        <div class="graphs">
+          <div class="graph">
+              <div class="plot"></div>
+                  <div class="spend__amount" data-amount="1"></div>
+            <span>mon</span>
+          </div>
+          <div class="graph">
+              <div class="plot"></div>
+              <div class="spend__amount" data-amount="2"></div>
+            <span>tue</span>
+          </div>
+          <div class="graph">
+              <div class="plot" ></div>
+              <div class="spend__amount" data-amount="3"></div>
+            <span>wed</span>
+          </div>
+          <div class="graph">
+              <div class="plot"></div>
+              <div class="spend__amount" data-amount="4"></div>
+            <span>thu</span>
+          </div>
+          <div class="graph">
+              <div class="plot"></div>
+                            <div class="spend__amount" data-amount="5"></div>
+            <span>fri</span>
+          </div>
+          <div class="graph">
+              <div class="plot"></div>
+                            <div class="spend__amount" data-amount="6"></div>
+            <span>sat</span>
+          </div>
+          <div class="graph">
+              <div class="plot"></div>
+                            <div class="spend__amount" data-amount="7"></div>
+            <span>sun</span>
+          </div>
+        </div>
+
+        <article class="total">
+          <div class="amount">
+            <p>Total this month</p>
+            <span>$478.33</span>
+          </div>
+          <div class="percent">
+            <span>+2.4%</span>
+            <p>from last month</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/parvathyvd" target="_blank">Parvathy</a>
+    </div>
+  </body>
+</html>
